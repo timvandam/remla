@@ -19,5 +19,15 @@ export const restaurants: Restaurant[] = [
     name: 'El Michoacáno',
     description: 'Tacos, burritos, and more',
     image: '/Jose_E._Pintor_Owner_2002.png'
+  },
+  {
+    name: 'City Sushi',
+    description: 'Sushi and more',
+    image: '/City-sushi.png'
+  },
+  {
+    name: 'City Wok',
+    description: 'Chinese food',
+    image: '/city-wok-thumb-2017.jpg'
   }
 ];
