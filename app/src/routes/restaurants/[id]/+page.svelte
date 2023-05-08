@@ -5,9 +5,9 @@
 
   $: restaurant = restaurants[$page.params.id];
 
-  let name: string = '';
-  let review: string = '';
-  let starRating: number = 4;
+  let name = '';
+  let review = '';
+  let starRating = 4;
   let starInput: HTMLInputElement;
   $: starInput?.style?.setProperty('--value', String(starRating));
 
@@ -98,9 +98,9 @@
     touch-action: manipulation;
     -webkit-appearance: none;
   }
-  [dir='rtl'] #rating {
-    --dir: left;
-  }
+  /*[dir='rtl'] #rating {*/
+  /*  --dir: left;*/
+  /*}*/
   #rating::-moz-range-track {
     background: linear-gradient(to var(--dir), var(--fill) 0 var(--x), var(--fillbg) 0 var(--x));
     block-size: 100%;
